@@ -1,0 +1,17 @@
+{
+  "name": "nodenew",
+  "version": "1.0.0",
+  "description": "",
+  "main": "node.js",
+  "scripts": {
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2",
+    "picocolors": "1.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}

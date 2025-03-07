@@ -1,0 +1,37 @@
+GET http://localhost:1234/pokemon/charizard
+
+### recuperar inf pokemon charizard
+
+POST http://localhost:1234/pokemon
+Content-Type: application/json
+
+{
+    "name":"charizard",
+    "type":"normal",
+    "moves":[
+        "transform"
+    ]
+}
+
+###
+POST http://localhost:3000/datos
+Content-Type: application/json
+
+{
+    "nombre":"qwewqe",
+    "edad": "23"
+}
+
+###
+GET http://localhost:3000/frase?autor=true
+
+###
+POST http://localhost:3000/texto
+Content-Type: application/json
+
+{
+    "letters":"hola"
+}
+
+###
+DELETE http://localhost:3000/tasks/2543da19-54a6-4255-8312-4686335d6e13
